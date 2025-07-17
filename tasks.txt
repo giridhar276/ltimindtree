@@ -72,6 +72,19 @@ write a program to replace all the vowels in a string with *.
 Enter a string: python
 pyth*n
 
+
+input_str=input("Enter a Word:")
+result=" "
+list_str=list(input_str)
+for i in input_str:
+    if i in ['a','e','i','o','u','A','E','I','O','U']:
+        result +="*"
+    else:
+        result +=i
+print(result)
+
+
+
 ##################################################################
 
 write a program to count how many uppercase , lowercase letters and digits are  in  a string
