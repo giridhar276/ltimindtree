@@ -8,6 +8,121 @@ nohtyp
 
 ##################################################################
 
+    
+write a program to convert the string to uppercase only if its length is more than 10 characters else display the same string.
+
+
+sample output:
+Enter a string: python programming
+PYTHON PROGRAMMING
+
+##################################################################
+
+write a program to count no. of words in a sentence.
+
+sample output:
+
+Enter a sentence: I love python programming language
+word count:  5
+
+
+
+##################################################################
+
+write a program to replace all the vowels in a string with *.
+
+Enter a string: python
+pyth*n
+
+##################################################################
+
+write a program to count how many uppercase , lowercase letters and digits are  in  a string
+
+
+Enter a string: PyTHon108
+Uppercase letters: 3
+Lowercase letters: 3
+Digits : 3
+
+##################################################################
+
+write a progarm to count character frequencies:
+
+
+Enter a string :  hello
+
+h : 1 time
+e : 1 time
+l : 2 times
+o : 1 time
+
+##################################################################
+
+
+wrrite a program to reverse a list without list.reverse() and [::-1]
+
+
+##################################################################
+
+write a program to square each number in a list
+
+nums = [1,2,3,4]
+
+output:
+[1,2,9,16]
+
+
+##################################################################
+
+write a program to join a list of words into a single string
+
+words = ["I","love","python","programming"]
+
+output:
+I love python programming
+
+##################################################################
+
+write a program to filter words longer than 4 letters
+
+words = ["python","unix","java","oracle"]
+
+output:
+["python","oracle"]
+
+##################################################################
+
+Write a program to join corresponding strings from two lists.
+
+first = ["Good", "Data", "Machine"]
+second = ["Morning", "Science", "Learning"]
+
+Output:
+Good Morning
+Data Science
+Machine Learning
+
+
+##################################################################
+
+Write a program to get all unique words from a list of sentences.
+
+sentences = ["hello world", "hello python", "data world"]
+
+output:
+["hello","world","python","data","world"]
+
+##################################################################
+
+
+
+Write a program to replace all None or empty strings in a list with 'NA'.
+data = ["Alice", "", None, "Bob", "Carol", "", None]
+output:
+["Alice", 'NA', 'NA', "Bob", "Carol", 'NA', 'NA']
+
+##################################################################
+
 
 ##################################################################
 
@@ -22,25 +137,7 @@ nohtyp
 ##################################################################
 
 
-
-##################################################################
-
-
-##################################################################
-
-
 ##################################################################
 
 
 
-##################################################################
-
-
-##################################################################
-
-
-##################################################################
-
-
-
-##################################################################
