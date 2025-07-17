@@ -39,6 +39,11 @@ sample output:
 Enter a string: python programming
 PYTHON PROGRAMMING
 
+
+str = input("Enter the string:")
+if len(str) > 10:
+    str1 = str.upper()
+    print(str1)
 ##################################################################
 
 write a program to count no. of words in a sentence.
@@ -48,6 +53,16 @@ sample output:
 Enter a sentence: I love python programming language
 word count:  5
 
+
+
+code:
+word = input("enter something:")
+print(word.count(" ")+1)
+
+
+word = input("enter something:")
+data = word.split(" ")
+print("count :", len(data)
 
 
 ##################################################################
