@@ -1,0 +1,421 @@
+
+https://github.com/giridhar276/ltimindtree
+
+
+C - datatypes
+------------------
+int a = 10;
+float
+char
+double
+long
+short
+
+Everything in python is object
+Every object contains methods
+
+number
+string
+list
+tuple
+dictionary
+set
+
+
+python - objects
+--------------------
+
+number
+------
+number can be integer or decimal or octal or hexa.
+
+a = 10
+aval = 34.3
+bval = 34
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "java programming"
+cname = """r programming"""
+dname = '''scala programming'''
+
+list ( array in C )
+------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list is defined in [].
+
+alist = [10,20,30,40]
+blist = ["java","unix","scala"]
+clist = [[10,20],[30,40]]  # list of lists
+
+
+tuple ( immutable   unchangeable  uneditable )
+-----
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple is defined in ().
+***** elements inside tuple cant be modified directly ******
+
+atup = (10,20,30,40)
+btup = ("java","c","cpp")
+ctup = ((10,20),(30,40),34,45.34,"unix")
+
+
+dictionary
+--------------
+dictionary contains key value pairs.
+dictionary is defined in {}.
+In dictionary , keys are always UNIQUE
+                key can be either number or string
+                value can be number,string,list,tuple,dictionary or any other datastructure.
+    
+
+Syntax:   object = {key:value  , key:value , key:value }
+	    book = {"chap1":10, "chap2":20 , "chap3":30 }
+            data = {1:2,3:4,5:6}
+            book = {"chap1":["rita","UK"], "chap2":["gita","US"] }
+
+book
+-----
+chap1	10
+chap2 	20
+chap3 	30
+chap4	40
+
+
+
+set (  venn diagrams )
+-----
+set is UNORDERED collection of UNIQUE items of SAME type.
+
+
+aset = {10,10,10,20,20,30}
+
+
+
+mutable and immutable objects
+----------------------------
+
+mutable objects:    list dictionary set
+immutable objects:  number  string  tuple
+
+val = 10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if ( a < b) 
+{
+}
+
+
+
+for ( i = 1; i<=10 ; i++ )
+{
+
+}
+
+
+
+there are two ways of commenting
+
+1. using #
+2. using """ 
+
+# this is single line comment
+
+
+"""
+this is multiline
+comment
+
+"""
+
+
+
+
+functions
+-------------
+- builtin functions
+- user defined functions
+
+
+- builtin functions
+------------------
+print()
+input()
+id()
+max()
+min()
+sum()
+range()
+zip()
+dir()
+help()
+type()
+isinstance()
+map()
+filter()
+
+int()
+float()
+str()
+list()
+tuple()
+dict()
+set()
+oct()
+
+How to display all the builtin functions?
+-----------------------------------------
+In the console ( interactive prompt)
+
+dir(__builtins__)  -----> will display all builtin functions and exception names
+
+
+
+
+**** Never save your filenames with keywords or builtinfuction names or library names ***
+list.py
+tuple.py
+dict.py
+input.py
+if.py
+else.py
+
+
+
+
+
+There are 2 types of functions.
+
+1. builtin functions
+----------------------
+print()
+input()
+max()
+range()
+sum()
+len()
+type()
+min()
+isinstance()
+id()
+dir()
+help()
+
+
+
+2. user defined function | definition | block | subroutine | submodule
+------------------------------------------------------------
+- reusability
+- define block once and call it for multiple times
+
+
+
+def display():
+    # set of lines
+
+display()
+
+
+different ways of passing arguments
+-------------------------------------
+fixed arguments
+default arguments
+keyword arguments
+variable length arguments
+
+
+operators
+-----------
+
+arithmetic operators:   +   -    *    %     /
+
+relational operators :     <   <=   >  >=    ==      !=
+
+assignment operators :( ++ and -- are NOT allowed in python )
+
+val = 10
+val = val + 1     (or)   val+=1
+
+logical operators :   and  or   not
+
+name = "python"
+if name.islower()  and len(name) == 6 :
+    # do something
+
+
+special opeartors:
+----------------------
+in
+as  ( used in excepetion handling and library imports )
++
+*
+
+name = "python programming"
+if 'python' in name:
+    # do something
+
+
+for char in name:
+    print(char)
+
+
++ : concatenation operator
+
+
+* : repetition opeartor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+library | module | package 
+----------------------------
+
+c
+---
+#include<stdio.h>
+#include<math.h>   ----> c language
+
+
+import math
+
+
+There are 2 types of libraries
+--------------------------------
+1.builtin libraries
+--------------------
+-builtin libraries are pre-installed libraries
+-all the libraries are installed with python itself
+-not required to install
+- Almost 3000+ libraries are installed with python
+
+2.third party libraries
+-------------------------
+These are not available by default.
+Depending on the requirement , developer has to install third party library from www.pypi.org
+
+
+
+Linux        			python
+-------------------------------------------
+ls            		   os.listdir()
+rm			   os.remove("abc.txt")
+                           os.remove("C:\newfolder\abc.txt")
+
+rmdir                      os.rmdir("dirname")
+mkdir                      os.mkdir("newdir")
+date                       import datetime
+                           print(datetime.datetime.now())
+                           print(datetime.date.today())
+cp abc.txt dir             shutil.copy("abc.tx","dir")
+mv def.txt dir             shutil.move("def.txt","path")
+whoami			   os.getlogin()
+pwd                        os.getcwd()
+ls( size of the file)      os.path.getsize("abc.txt")  ----> size of the file in bytes
+uname ( os name)           os.name
+check python version       sys.version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
