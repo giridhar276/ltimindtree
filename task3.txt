@@ -1,0 +1,45 @@
+
+
+
+write a program to capture firstname,lastname,collegename, city name 
+from the keyword and write the output to a file.
+
+Sample input:
+Enter first name : Giridhar
+Enter Last name  : Sripathi
+Enter University : NIT Jamshedpur
+Enter city       : Hyderabad
+
+data saved to the file
+
+details.txt
+--------------
+Giridhar
+Sripathi
+NIT Jamshedpur
+Hyderabad  
+
+
+
+###########################################################################################
+
+
+
+###########################################################################################
+
+
+
+###########################################################################################
+
+
+
+###########################################################################################
+
+
+
+###########################################################################################
+
+
+
+
+
