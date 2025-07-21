@@ -1,0 +1,7 @@
+python,hyderabad
+unix,bangalore
+oracle,delhi
+linux,chennai
+ruby,mumbai
+c,noida
+java,kolkata

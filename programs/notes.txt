@@ -362,6 +362,43 @@ check python version       sys.version
 
 
 
+file handling
+---------------
+1.txt
+2.csv
+3.log
+
+
+
+txt
+jpg
+xlsx
+pdf
+doc
+ppt
+csv
+png
+exe
+zip
+bat
+dll
+xps
+mp3
+mp4
+opt
+mkv
+ogg
+dat
+wav
+odt
+apk
+m48
+.mrtf
+m4a
+psd
+pub
+md
+gif
 
 
 
@@ -371,6 +408,98 @@ check python version       sys.version
 
 
 
+1. working with flat files ( txt  csv   log  .conf  )
+----------------------------------------------
+we can open the flat files directly in python using open()
+
+
+2. working with third party files ( pdf  xlsx pptx  docx  zip tar )
+---------------------------------------------------
+In order to read/write third party files, we need library
+
+
+opening the file in python  ( open is a builtin function )
+-----------------------------
+syntax:   object = open(filename,mode)  # mode can be r or w  or a
+example:    fr = open("abc.txt","r")  # read mode
+            fw = open("hello.txt","w") # write mode
+            fa = open("data.txt","a")  # append mode
+
+closing the file
+----------------
+fr.close()
+
+
+
+
+
+
+
+write a program to capture firstname,lastname,collegename, city name 
+from the keyword and write the output to a file.
+
+Sample input:
+Enter first name : Giridhar
+Enter Last name  : Sripathi
+Enter University : NIT Jamshedpur
+Enter city       : Hyderabad
+
+data saved to the file
+
+details.txt
+--------------
+Giridhar
+Sripathi
+NIT Jamshedpur
+Hyderabad  
+
+
+
+write a program to input    value from keyboard and check whether the number 
+is prime number or not and write the output to a file
+
+sample input:
+Enter any number:  7
+
+prime.txt
+----------
+7 is a prime number
+
+
+
+#########################################################################
+read operation
+---------------
+
+There are different ways of reading the file
+
+1. read file line by line using file object
+2. using fobj.readlines()
+3. using fobj.read()
+4. using csv library
+
+
+write operation
+-----------------
+fobj.write(string)
+fobj.writelines(list)
+
+
+
+exception handling
+-------------------
+There are two types of errors
+
+1. syntax error
+2. semenatic error or runtime error or logical error
+
+handling errors that occurs during runtime is known as exception handling
+
+try
+except
+else
+finally
+raise
 
 
 
@@ -379,7 +508,104 @@ check python version       sys.version
 
 
 
+re - regular expressions
+-----------------------
+re.search() : search for patterns anything in the string
+re.match()  : search for patterns at the beginning of the string
+re.sub()    : substitute pattern with replacement
 
+
+metacharacters  ( ^     $    *      +      ?    )
+-------------------
+^ : beginning of the string
+
+re.search("^python",line)  --------> search at the beginning of the string
+###########################
+$ : end of the string
+re.search("python$",line)  ---------> search at end of the string
+##########################
+* : zero of more occurences of the preceding chararcter
+re.search("pyt*hon",line) ---------> 
+python : valid
+pyhon  : valid
+pytttttthon : valid
+pyttttttttttttttthon :valid
+###########################
++ : one or more occurences of the preceding character
+re.search("pyt+hon",line) ---------> 
+python : valid
+pyhon  : invalid
+pytttttthon : valid
+pyttttttttttttttthon :valid
+################################
+? : either zero or one occurence of the preceding character
+re.search("pyt?hon",line) ---------> 
+python : valid
+pyhon  : valid
+pytttttthon : invalid
+pyttttttttttttttthon :invalid
+#########################################
+. : any single character or digit or symbol
+
+re.search(".ython",line)   # python or jython qython  
+
+python  :  valid
+jython  :  valid
+java    :  invalid
+oracle  : invalid
+
+
+There are 2 types of langauges
+
+1. procedural programming  ( Eg: C ) 
+2. object oriented programming ( Eg. python , java , C++ )
+
+Object oriented programming ( global concepts for all the languages )
+--------------------------
+class
+object
+constructor
+data hiding
+encapsulation
+data abstraction
+inheritence
+polymorphism
+- function overloading
+- operator overloading
+
+
+class
+-----
+class is blueprint of the model or house
+Every class contains data members(attributes) and functions(methods)
+
+
+object
+-----
+object is the instance of the class
+
+self
+----
+self is the instance of the object.
+
+
+
+
+constructor
+------------
+
+
+
+
+GUI programming in python
+----------------------------
+
+If you want to build tools like notepad,calculator,wordpad ..
+
+tkinter
+wxpython
+pyqt
+kiwi
 
 
 
